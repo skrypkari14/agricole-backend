@@ -9,7 +9,7 @@ const port = 5000;
 app.use(cors());
 
 const token = '7418959937:AAEqS6ir_yjuVEnP9d1fpIXEgy7IYSr1SD8';
-const chatId = 7009012484;
+const chatId = -4247164009;
 
 const bot = new TelegramBot(token, {
     polling: true
